@@ -1,0 +1,102 @@
+body
+{
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Century Gothic';
+   height: 1000px;
+   width: 1920px;
+   background-color: white;
+}
+
+.wrapper_bg
+{
+   margin: 0px;
+   height: 1000px;
+   width: 1920px;
+   text-align: center;
+}
+
+.buttons button
+{
+   margin-top: 300px;
+   text-align: center;
+   height: 400px;
+   width: 200px;
+}
+
+#generate
+{
+   background: none;
+   cursor: pointer;
+     background-color: black;
+     outline: none;
+   color: white;
+   font-size: 18px;
+   width: 200px;
+   height: 100px;
+   font-family: 'Century Gothic';
+   text-align: center;
+     border-radius: 50%;
+     border: 3px solid white;
+}
+
+#clear
+{
+   background: none;
+   cursor: pointer;
+   color: white;
+   font-size: 18px;
+   width: 200px;
+   height: 100px;
+   font-family: 'Century Gothic';
+   text-align: center;
+     border-radius: 50%;
+     border: 3px solid black;
+     outline: none;
+     background-color: red;
+}
+
+.generate_t
+{
+   color: white;
+   font-size: 30px;
+     margin-top: 50px;
+}
+
+.style1
+{
+    background-color: red;
+    color: black;
+}
+.style2
+{
+    background-color: green;
+    color: black;
+}
+.style3
+{
+    background-color: orange;
+    color: grey;
+}
+.style4
+{
+    background-color:pink ;
+    color: blue;
+}
+.style5
+{
+    background-color: black;
+    color: white;
+}
+.style6
+{
+    background-color: yellow;
+    color: black;
+}
+
+
+@font-face {
+font-family: 'Century Gothic';
+src: local('Century Gothic'),
+url(fonts/Century Gothic.ttf);
+}
